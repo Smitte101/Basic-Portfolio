@@ -1,0 +1,87 @@
+header {
+	height: 100px;
+	width: 100%;
+
+}	
+
+main {
+	min-height: 300px;
+	width: 100%;
+	background-color: blue;
+	padding-top: 20px;
+
+}
+
+footer {
+	height: 100px;
+	width: 100%;
+	background-color: red;
+}
+
+nav  {
+	float: right;
+	padding-top: 40px;
+	margin-right: 40px;
+
+}
+
+ul li {
+	display: inline-block;
+}
+
+.title {
+	float: left;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 40px;
+	background-color: green;
+	font-size: 15pt;
+	color: white;
+}
+
+
+.mainContent{
+	width: 450px;
+	min-height: 200px;
+	background-color: white;
+	float: left;
+	margin-left: 40px;
+}
+
+.sideContent{
+	width: 270px;
+	min-height: 100px;	
+	background-color: red;
+	float: right;
+	margin-right: 40px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.title2{
+	float: left;
+}
+.divider{
+	width: 100%;
+	height: 5px;
+	background-color: green;
+	margin: 10px 0px;
+
+}
+.sexybeast{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	position: relative;
+	float: left;
+	margin: 0px 8px;
+}
+
+.aboutme{
+	padding: 10px 5px;
+	color: red;
+}
